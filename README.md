@@ -31,3 +31,23 @@ The "Iteration of SIRM" has a default value of 40. In early stage of refine wher
 The "Real space mask" should only be provided at the last couples of rounds. Otherwise it would bring significant model-bias to maps.
 
 The "MWTCF value" should never be larger than 2.0 (unless something strange happens). In our tests, 0.1 ~ 0.2 is good enough to converge ribosome datasets. In HA datasets, we used 0.5 ~ 1.0.
+
+# 2. Using SIRM in reconstruction.
+
+To better utilize SIRM, we added "Reconstruction" in RELION's main GUI.
+
+![alt text](https://github.com/homurachan/SIRM_RELION/blob/main/Pictures/Pic3.png?raw=true)
+
+Now you can use the GUI to run reconstruction very easily.
+
+![alt text](https://github.com/homurachan/SIRM_RELION/blob/main/Pictures/Pic4.png?raw=true)
+
+The only difference in reconstruction step of SIRM is that you must provide additional FSC starfile.
+
+You can use https://github.com/homurachan/SIRM_RELION/blob/main/convert_star_2_SIRM_weight.py to convert a post-process starfile to FSC starfile.
+
+The usage is `python ./convert_star_2_SIRM_weight.py postprocess.star Weight.star`
+
+# 3. Improving alignment using Validation and Mask-Picking.
+
+(To be continued)
