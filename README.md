@@ -3,6 +3,13 @@ Depository of the SIRM_RELION, a modification of RELION 3.1.2 implemented with S
 
 Installation is the same as conventional RELION.
 
+# Update 02/10/2024
+Upload Validation and Mask-Picking scripts. These scripts must be used together with the SIRM v1.1 (relion-3.1.2_SIRM_v1p1.zip).
+
+Also upload a usage PDF in Chinese: SIRM_usage_Chinese.pdf. I don't have time to translate this pdf for now. An English version will be updated soon.
+
+Happy Chinese New Year!
+
 # Update 07/25/2023
 Fix SIRM and MWTCF option in GUI of 3D auto-refine remained deactivate when triggered continue run.
 
