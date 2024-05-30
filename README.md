@@ -3,6 +3,9 @@ Depository of the SIRM_RELION, a modification of RELION 3.1.2 implemented with S
 
 Installation is the same as conventional RELION.
 
+# Update 05/30/2024
+Upload the English version of the usage: SIRM_usage_English.pdf
+
 # Update 02/10/2024
 Upload Validation and Mask-Picking scripts. These scripts must be used together with the SIRM v1.1 (relion-3.1.2_SIRM_v1p1.zip).
 
