@@ -3,6 +3,12 @@ Depository of the SIRM_RELION, a modification of RELION 3.1.2 implemented with S
 
 Installation is the same as conventional RELION.
 
+If you find SIRM useful, please cite our paper:
+
+Dongjie Zhu, Weili Cao et al., Correction of preferred orientation–induced distortion in cryo–electron microscopy maps.
+
+Science Advances 10, eadn0092 (2024). DOI:10.1126/sciadv.adn0092
+
 # Update 05/30/2024
 Upload the English version of the usage: SIRM_usage_English.pdf
 
