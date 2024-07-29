@@ -9,6 +9,8 @@ Dongjie Zhu, Weili Cao et al., Correction of preferred orientation–induced dis
 
 Science Advances 10, eadn0092 (2024). DOI:10.1126/sciadv.adn0092
 
+Note: Get infomred from EMDB, our EMD maps will be released on Aug 7th.
+
 # Update 05/30/2024
 Upload the English version of the usage: SIRM_usage_English.pdf
 
