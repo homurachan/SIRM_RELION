@@ -9,6 +9,19 @@ Dongjie Zhu, Weili Cao et al., Correction of preferred orientation–induced dis
 
 Science Advances 10, eadn0092 (2024). DOI:10.1126/sciadv.adn0092
 
+# Update 08/19/2025
+I found a critical bug in relion_postprocess. Since RELION v3.1 to the MOST RECENT version, relion_postprocess will NOT low-pass the postprocess.mrc
+
+The solution is manually add --low_pass -1 in the Additional arguments.
+
+This bug IS NOT introduced by me.
+
+从RELION 3.1版本开始到最新版本（如5.0.0 stable），在Post-process中存在一个致命bug，对于生成的postprocess.mrc不会进行low-pass
+
+解决方法：在Additional arguments里加上--low_pass -1
+
+该bug不是我引入的。其具体表现为，如果你的分辨率很差或加了一个很负的bfactor，那么postprocess.mrc就是一堆噪声
+
 # Update 05/30/2024
 Upload the English version of the usage: SIRM_usage_English.pdf
 
